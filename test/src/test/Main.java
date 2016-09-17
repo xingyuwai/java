@@ -44,5 +44,6 @@ public class Main {
 		MyPoint point2 = new MyPoint(x2, y2);
 		System.out.println(point1.getD(point2));
 		scan.close();
+		jj
 	}
 }
