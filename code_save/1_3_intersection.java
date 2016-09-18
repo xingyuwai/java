@@ -1,4 +1,4 @@
-//package test;
+package test;
 
 import java.util.Scanner;
 
@@ -50,7 +50,10 @@ public class Main
 				}
 			}
 		}
-		System.out.println(lengthOfIntersection);
+		if (lengthOfIntersection == 0)
+			System.out.println("None");
+		else
+			System.out.println(lengthOfIntersection);
 		readin.close();
 	}
 }
