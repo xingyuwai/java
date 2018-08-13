@@ -1,2 +1,2 @@
-# java
-java_project_first
+# What's this?
+Java exercises.
